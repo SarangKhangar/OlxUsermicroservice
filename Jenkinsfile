@@ -16,11 +16,7 @@ pipeline {
             steps {
                 echo 'Running'
             }
-        }  stage('Run') {
-            steps {
-                echo 'Running'
-            }
-        }
+        }  
           stage('Test report using  jacoco') {
             steps {
                 echo 'jacoco'
