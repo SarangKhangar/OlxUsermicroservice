@@ -4,17 +4,17 @@ pipeline {
     stages {
          stage('checkout') {
             steps {
-                echo 'Compliling'
+              https://github.com/SarangKhangar/OlxUsermicroservice/edit/main/Jenkinsfile
             }
         }
         stage('Complile') {
             steps {
-                echo 'Compliling'
+                bat 'mvn clean compile'
             }
         }
          stage('Run') {
             steps {
-                echo 'Running'
+                bat 'mvn package'
             }
         }  
           stage('Test report using  jacoco') {
