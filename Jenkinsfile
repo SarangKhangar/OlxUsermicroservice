@@ -4,7 +4,7 @@ pipeline {
     stages {
          stage('checkout') {
             steps {
-              https://github.com/SarangKhangar/OlxUsermicroservice/edit/main/Jenkinsfile
+git 'https://github.com/SarangKhangar/OlxUsermicroservice.git'         
             }
         }
         stage('Complile') {
